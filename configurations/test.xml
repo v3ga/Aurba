@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<toolVisualisation>
+<isDrawVilles>true</isDrawVilles>
+<isDrawSubdiv>false</isDrawSubdiv>
+<isDrawLines>false</isDrawLines>
+<isDrawLinesInner>false</isDrawLinesInner>
+<isDrawCouleurs>true</isDrawCouleurs>
+<radiusInner>100.0</radiusInner>
+<radiusExternMin>370.0</radiusExternMin>
+<radiusExternMax>500.0</radiusExternMax>
+<radiusOeil>50.0</radiusOeil>
+<colorDensMin>-7154688</colorDensMin>
+<colorDensMax>-2807010</colorDensMax>
+<percentColorDensMin>100.0</percentColorDensMin>
+<percentColorDensMax>100.0</percentColorDensMax>
+</toolVisualisation>
+

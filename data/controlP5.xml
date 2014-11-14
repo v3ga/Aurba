@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<controlP5 colorLabel="ffffffff" colorValue="ffffffff" colorForeground="ff00698c" date="Tue Mar 13 23:30:45 CET 2012" colorBackground="ff003652" colorActive="ff08a2cf" lock="false" filepath="controlP5.xml" urlpath="">
+<window height="768" name="main" background="00000000" width="1024" class="Aurba">
+<tab name="global" width="40" id="-1" visible="1.0" open="1.0" label="global" moveable="0.0"/>
+<tab name="default" width="45" id="1" visible="1.0" open="1.0" label="Carte" moveable="0.0">
+<controller name="Zoom" id="-1" width="150" visible="1.0" min="1.0" type="slider" max="10.0" y="20.0" label="Zoom" x="2.0" value="6.0" height="20" moveable="1.0"/>
+<controller name="Connexions" id="-1" width="20" visible="1.0" type="toggle" y="52.0" label="Connexions" x="2.0" value="1.0" height="20" moveable="1.0"/>
+<controller name="Index" id="-1" width="20" visible="1.0" type="toggle" y="74.0" label="Index" x="2.0" value="1.0" height="20" moveable="1.0"/>
+</tab>
+<tab name="Visualisation" width="67" id="2" visible="1.0" open="1.0" label="Visualisation" moveable="0.0">
+<controller name="RayonOeil" id="-1" width="150" visible="1.0" min="10.0" type="slider" max="100.0" y="20.0" label="Oeil" x="2.0" value="50.0" height="20" moveable="1.0"/>
+<controller name="Export" id="-1" width="40" visible="1.0" type="button" y="20.0" label="Export" x="182.0" value="0.0" height="20" moveable="1.0"/>
+<controller name="Villes" id="-1" width="20" visible="1.0" type="toggle" y="42.0" label="Villes" x="2.0" value="1.0" height="20" moveable="1.0"/>
+<controller name="Subdivisions" id="-1" width="20" visible="1.0" type="toggle" y="42.0" label="Subdivisions" x="62.0" value="1.0" height="20" moveable="1.0"/>
+<controller name="LignesInner" id="-1" width="20" visible="1.0" type="toggle" y="42.0" label="Lignes internes" x="152.0" value="0.0" height="20" moveable="1.0"/>
+<controller name="Couleurs" id="-1" width="20" visible="1.0" type="toggle" y="42.0" label="Couleurs" x="252.0" value="1.0" height="20" moveable="1.0"/>
+<controller name="Contours" id="-1" width="20" visible="1.0" type="toggle" y="42.0" label="Contours" x="322.0" value="0.0" height="20" moveable="1.0"/>
+<controller name="radiusExternMin" id="-1" width="150" visible="1.0" min="200.0" type="slider" max="500.0" y="64.0" label="rayon externe min" x="2.0" value="400.0" height="20" moveable="1.0"/>
+<controller name="radiusExternMax" id="-1" width="150" visible="1.0" min="300.0" type="slider" max="700.0" y="86.0" label="rayon externe max" x="2.0" value="644.0" height="20" moveable="1.0"/>
+<controller name="radiusIntern" id="-1" width="150" visible="1.0" min="50.0" type="slider" max="150.0" y="108.0" label="rayon interne" x="2.0" value="100.0" height="20" moveable="1.0"/>
+<group name="cpDensMin" width="255" id="-1" visible="1.0" open="1.0" y="704.0" label="cpDensMin" x="255.0" height="20" moveable="1.0">
+<controller name="cpDensMin-red" id="0" width="255" visible="1.0" min="0.0" type="slider" max="255.0" y="0.0" label="cpDensMin-red" x="0.0" value="146.0" height="10" moveable="0.0"/>
+<controller name="cpDensMin-green" id="1" width="255" visible="1.0" min="0.0" type="slider" max="255.0" y="11.0" label="cpDensMin-green" x="0.0" value="212.0" height="10" moveable="0.0"/>
+<controller name="cpDensMin-blue" id="2" width="255" visible="1.0" min="0.0" type="slider" max="255.0" y="22.0" label="cpDensMin-blue" x="0.0" value="0.0" height="10" moveable="0.0"/>
+<controller name="cpDensMin-alpha" id="3" width="255" visible="1.0" min="0.0" type="slider" max="255.0" y="33.0" label="cpDensMin-alpha" x="0.0" value="255.0" height="10" moveable="0.0"/>
+</group>
+<group name="cpDensMax" width="255" id="-1" visible="1.0" open="1.0" y="704.0" label="cpDensMax" x="514.0" height="20" moveable="1.0">
+<controller name="cpDensMax-red" id="0" width="255" visible="1.0" min="0.0" type="slider" max="255.0" y="0.0" label="cpDensMax-red" x="0.0" value="213.0" height="10" moveable="0.0"/>
+<controller name="cpDensMax-green" id="1" width="255" visible="1.0" min="0.0" type="slider" max="255.0" y="11.0" label="cpDensMax-green" x="0.0" value="43.0" height="10" moveable="0.0"/>
+<controller name="cpDensMax-blue" id="2" width="255" visible="1.0" min="0.0" type="slider" max="255.0" y="22.0" label="cpDensMax-blue" x="0.0" value="30.0" height="10" moveable="0.0"/>
+<controller name="cpDensMax-alpha" id="3" width="255" visible="1.0" min="0.0" type="slider" max="255.0" y="33.0" label="cpDensMax-alpha" x="0.0" value="255.0" height="10" moveable="0.0"/>
+</group>
+</tab>
+</window>
+</controlP5>
+
