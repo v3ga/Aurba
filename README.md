@@ -1,6 +1,6 @@
 Aurba
 =====
-Cet outil a été réalisé en collaboration avec [Kubik](http://www.kubik.fr/), agence de design basée à Bordeaux. Il a été programmé avec la version 1.5.1 de [Processing](http://www.processing.org) sur MacOSX 10.7
+Cet outil a été réalisé en collaboration avec [Kubik](http://www.kubik.fr/), agence de design basée à Bordeaux.
 
 ## Présentation
 Le visuel générique a été conçu à l'aide d'une application informatique développée avec Processing et créée spécialement pour ce projet.
@@ -10,6 +10,14 @@ La démarche consistait en l'utilisation d'un nouvel outil de visualisation de d
 Un diagramme est ainsi né de de l'interprétation de données relatives à la distance géographique (coordonnées gps) qui relie les 52 agences d'urbanisme à la 53e : Bordeaux. 
 
 La forme et l'angle d'ouverture des parts du diagramme sont issus de la distance en km entre une agence et le lieu de la Rencontre. Le positionnement de ces formes sur l'ellipse suit un ordre alphabétique. Enfin, le point de convergence de ce faisceau reprend l'idée de l'œil comme outil d'analyse.
+
+## Outils
+Ce programme a été réalisé avec la version 1.5.1 de [Processing](http://www.processing.org) sur MacOSX 10.7 et les librairies suivantes : 
+* [GLGraphics](http://glgraphics.sourceforge.net/)
+* [Control P5](http://www.sojamo.de/libraries/controlP5/)
+* [Unfolding Maps](http://unfoldingmaps.org/downloads) for Processing 1.5
+* [Geomerative](http://www.ricardmarxer.com/geomerative/)
+* [JXL](http://jexcelapi.sourceforge.net/)
 
 ## Captures d'écran
 ![Cartographie des agences d'urbanisme](http://v3ga.github.io/Images/Aurba/01_Aurba_carte.jpg)
